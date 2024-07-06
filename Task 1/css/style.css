@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, #007BFF, #00C9FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.893);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(5px 5px 2.3px #000);  
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition:  ease-in-out 0.5s;
+}
+
+input:focus {
+    box-shadow: 5px 5px 10px 2px #000;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+}
+
+button:active {
+    background-color: #0056b3;
+    box-shadow: inset 5px 5px 10px 2px #000;
+}
+
+span {
+    filter: drop-shadow(5px 5px 2.3px #000);  
+}
+
+#output {
+    margin-top: 20px;
+    text-align: center;
+}

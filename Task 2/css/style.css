@@ -1,0 +1,23 @@
+body {
+    height: 94vh;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(130deg, rgba(0, 174, 142, 0.793), rgba(69, 174, 255, 0.799));
+}
+
+h1 {
+    color: #333;
+    filter: drop-shadow(10px 10px 3px #000);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
